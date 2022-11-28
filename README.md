@@ -7,6 +7,7 @@
 
 #### Integrantes del equipo
 1. Rodrigo Domínguez Jiménez
+2. Carlos Alberto Tamariz Morales
 
 ## INTRODUCCIÓN
 
