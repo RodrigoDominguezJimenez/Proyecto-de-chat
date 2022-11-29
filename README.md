@@ -10,8 +10,13 @@
 2. Carlos Alberto Tamariz Morales
 3. Daniel Sebastián Sánchez Medina
 4. Vanessa Michelle Grapain Aldana
+5. Aldahir Abisai Leal Cardeña
 
 ## INTRODUCCIÓN
+En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
+Con ello lo que buscamos es que el trato sea de manera grupal o directa en el chat, lo que beneficia en estos tiempos de “pandemia” ya que sería de manera virtual  para que así haya menor riesgo de contagio de COVID-19 y se facilite el trato sea el lugar en cual este el alumno.
+
+
 
 ## MÉTODOS
 ### Señales
