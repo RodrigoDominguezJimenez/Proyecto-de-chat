@@ -8,6 +8,8 @@
 #### Integrantes del equipo
 1. Rodrigo Domínguez Jiménez
 2. Carlos Alberto Tamariz Morales
+3. Daniel Sebastián Sánchez Medina
+4. Vanessa Michelle Grapain Aldana
 
 ## INTRODUCCIÓN
 
