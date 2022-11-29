@@ -12,6 +12,10 @@
 ## INTRODUCCIÓN
 
 ## MÉTODOS
+### Señales
+####¿Que son las señales?
+Las señales son una característica del sistema operativo que proporciona un medio de notificar a un programa de un evento, y manejarlo de forma asíncrona.
+Pueden ser generados por el propio sistema o enviados desde un proceso a otro.
 
 ## FUNCIONES
 
