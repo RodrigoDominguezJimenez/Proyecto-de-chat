@@ -11,6 +11,7 @@
 3. Daniel Sebastián Sánchez Medina
 4. Vanessa Michelle Grapain Aldana
 5. Aldahir Abisai Leal Cardeña
+6. Isaias Landa Cervantes
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -27,7 +28,8 @@ Las señales son una característica del sistema operativo que proporciona un me
 Pueden ser generados por el propio sistema o enviados desde un proceso a otro.
 
 ## FUNCIONES
-
+### FUNCION RUN
+Método que representa la actividad del hilo. Se puede redefinir este método en una subclase. El método run() estándar ejecuta el objeto que se pasó al constructor en como argumento target, de haberlo, con argumentos secuenciales y por clave tomados de los argumentos args y kwargs, respectivamente.
 ## PRUEBAS
 
 ## CONCLUSIÓN
