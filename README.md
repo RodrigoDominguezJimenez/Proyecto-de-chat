@@ -15,6 +15,7 @@
 7. Axel Naim Gomez Carreta
 8. Erick Leonardo Martínez Hernández
 9. Mauricio Hernández Sánchez
+10. Mario Azael Garcia Rodriguez
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -25,10 +26,7 @@ Con ello lo que buscamos es que el trato sea de manera grupal o directa en el ch
 
 
 ## MÉTODOS
-
 ### QThread
-Un objeto QThread administra un subproceso de control dentro del programa. QThreads comienza a ejecutarse en run(). De forma predeterminada, run() inicia el bucle de eventos llamando a exec() y ejecuta un bucle de eventos Qt dentro del subproceso. De igual manera todas las ranuras en cola de QThread y los métodos invocados se ejecutarán en el hilo antiguo. Al subclasificar QThread, tenga en cuenta que el constructor se ejecuta en el subproceso antiguo mientras que run() se ejecuta en el nuevo subproceso.
-
 ### Señales
 #### ¿Que son las señales?
 Las señales son una característica del sistema operativo que proporciona un medio de notificar a un programa de un evento, y manejarlo de forma asíncrona.
@@ -39,6 +37,9 @@ la señal.
 ### Sockets
 
 ## FUNCIONES
+
+### StarServer
+En esta función se inicializa el servidor y por cada cliente que se conecta, se crea un hilo, y un socket donde se guarda la dirección, que después manda un mensaje diciendo que el servidor está escuchando y muestra la dirección ip y el puerto donde esta corriendo el servidor, seguido de que cuando un cliente se conecta, también imprime “cliente conectado de”, y la información del cliente se guarda en un hilo.
 
 ### HandleNotif
 En la primera parte del metodo, la primera función es que esta diciendo que si recibe un cliente en la conexion del servidor, se le mostrara un mensaje de exito y le aplicara el nombre de usuario, y la funcion del if es que esta diciendo que si recibe una notificación de tipo de conexión, se ejecutará el código, en caso contrario se mostraria un mensaje que diciendo que se desconecto y se borrara el nombre de usuario. 
@@ -59,4 +60,3 @@ Funcion se utiliza para devolver un objeto que imita la transmisión. Describe l
 ## BIBLIOGRAFÍA
 
 https://rico-schmidt.name/pymotw-3/signal/index.html#:~:text=Las%20se%C3%B1ales%20son%20una%20caracter%C3%ADstica,y%20manejarlo%20de%20forma%20as%C3%ADncrona.
-https://doc.qt.io/qtforpython/PySide6/QtCore/QThread.html#more
