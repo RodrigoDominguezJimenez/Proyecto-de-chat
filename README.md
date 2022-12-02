@@ -59,7 +59,7 @@ Método que representa la actividad del hilo. Se puede redefinir este método en
 ### checkNoEmpty
 De lo que se encarga esta función es la de checar que los campos de Nickname, server IP y el del puerto del servidor, si estos cuadros de textos se encuentran vacíos el botón de ‘Connect to server’ no estará habilitado
 
-![](https://user-images.githubusercontent.com/113154040/205403477-c32328f5-88d2-4ecb-83da-be5c6f6570bc.png)![](https://user-images.githubusercontent.com/113154040/205403491-3161a2dc-7448-4e68-a958-6eb878e8c8af.png)}
+![](https://user-images.githubusercontent.com/113154040/205403477-c32328f5-88d2-4ecb-83da-be5c6f6570bc.png)  ![](https://user-images.githubusercontent.com/113154040/205403491-3161a2dc-7448-4e68-a958-6eb878e8c8af.png)}
 
 ### connetServer
 Lo que se encarga hacer esta función es la de asignar a las variables ‘nickname’, ‘ip’ y ‘port’ los textos que se encuentran en los ‘QLineEdit’ para posteriormente mandarlos al servidor y hacer el registro, al final se cierra la ventana de ‘Custom dialog’
