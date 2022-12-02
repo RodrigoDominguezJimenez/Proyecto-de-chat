@@ -48,6 +48,9 @@ En la primera parte del metodo, la primera función es que esta diciendo que si 
 ### HandleBroadcast
 Funcion encargada del manejo de los broadCast, este se encarga de mandar los mensajes enviados por el usuario para que los reciban los demas usuarios en el chat grupal, tomando como argumento jsonObj siendo este emitido por la clase RecvMsg.
 
+## HandleDirect
+En esta funcion se encarga de mandar el mensaje de manera directa a un usuario en especifico, si no existe un tab con el usuario que queremos enviar el mensaje se crea uno con un textEdit el cual llama a una funcion para que solo pueda ser de lectura ademas este recibe el nickname del cliente de origen, y el nickname junto con un jsoObj son agregados al tab, en cambio si este tab ya existe solo reasigna los datos antes mencionados al tab, por ultimo se pregunta si el jsonObj es de tipo file el cursor mostrara un mensaje de que enviaron un archivo junto con el nickname del cliente de origen con un mensaje, si no solo mostrara el nickname del cliente de origen y el mensaje
+
 ### FUNCION RUN
 Método que representa la actividad del hilo. Se puede redefinir este método en una subclase. El método run() estándar ejecuta el objeto que se pasó al constructor en como argumento target, de haberlo, con argumentos secuenciales y por clave tomados de los argumentos args y kwargs, respectivamente.
 
