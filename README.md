@@ -44,3 +44,5 @@ Método que representa la actividad del hilo. Se puede redefinir este método en
 ## CONCLUSIÓN
 
 ## BIBLIOGRAFÍA
+
+https://rico-schmidt.name/pymotw-3/signal/index.html#:~:text=Las%20se%C3%B1ales%20son%20una%20caracter%C3%ADstica,y%20manejarlo%20de%20forma%20as%C3%ADncrona.
