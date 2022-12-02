@@ -18,6 +18,7 @@
 10. Mario Azael Garcia Rodriguez
 11. Juan Daniel Cebada Colula 
 12. Victor Emmanuel López Espejo
+13. Samuel Ruiz Castillo
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -54,6 +55,14 @@ En esta funcion se encarga de mandar el mensaje de manera directa a un usuario e
 
 ### Run
 Método que representa la actividad del hilo. Se puede redefinir este método en una subclase. El método run() estándar ejecuta el objeto que se pasó al constructor en como argumento target, de haberlo, con argumentos secuenciales y por clave tomados de los argumentos args y kwargs, respectivamente.
+
+### checkNoEmpty
+De lo que se encarga esta función es la de checar que los campos de Nickname, server IP y el del puerto del servidor, si estos cuadros de textos se encuentran vacíos el botón de ‘Connect to server’ no estará habilitado
+
+![](https://user-images.githubusercontent.com/113154040/205403477-c32328f5-88d2-4ecb-83da-be5c6f6570bc.png)![](https://user-images.githubusercontent.com/113154040/205403491-3161a2dc-7448-4e68-a958-6eb878e8c8af.png)}
+
+### connetServer
+Lo que se encarga hacer esta función es la de asignar a las variables ‘nickname’, ‘ip’ y ‘port’ los textos que se encuentran en los ‘QLineEdit’ para posteriormente mandarlos al servidor y hacer el registro, al final se cierra la ventana de ‘Custom dialog’
 
 ### senBroadcaast(NumPy Broadcast())
 Funcion se utiliza para devolver un objeto que imita la transmisión. Describe la capacidad de NumPy para tratar arrays de diferentes formas durante operaciones aritméticas.
