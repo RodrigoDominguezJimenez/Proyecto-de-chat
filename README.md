@@ -27,7 +27,7 @@ Con ello lo que buscamos es que el trato sea de manera grupal o directa en el ch
 ## MÉTODOS
 
 ### QThread
-Un objetoQThreadadministra un subproceso de control dentro del programa. QThreads comienza a ejecutarse enrun(). De forma predeterminada, run() inicia el bucle de eventos llamando aexec() y ejecuta un bucle de eventos Qt dentro del subproceso. De igual manera todas las ranuras en cola deQThread ylos métodosinvocadosse ejecutarán en el hilo antiguo. Al subclasificarQThread, tenga en cuenta que el constructor se ejecuta en el subproceso antiguo mientras querun() se ejecuta en el nuevo subproceso.
+Un objeto QThread administra un subproceso de control dentro del programa. QThreads comienza a ejecutarse en run(). De forma predeterminada, run() inicia el bucle de eventos llamando a exec() y ejecuta un bucle de eventos Qt dentro del subproceso. De igual manera todas las ranuras en cola de QThread y los métodos invocados se ejecutarán en el hilo antiguo. Al subclasificar QThread, tenga en cuenta que el constructor se ejecuta en el subproceso antiguo mientras que run() se ejecuta en el nuevo subproceso.
 
 ### Señales
 #### ¿Que son las señales?
