@@ -12,6 +12,7 @@
 4. Vanessa Michelle Grapain Aldana
 5. Aldahir Abisai Leal Cardeña
 6. Isaias Landa Cervantes
+7. Axel Naim Gomez Carreta
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
