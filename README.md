@@ -26,8 +26,15 @@ Con ello lo que buscamos es que el trato sea de manera grupal o directa en el ch
 #### ¿Que son las señales?
 Las señales son una característica del sistema operativo que proporciona un medio de notificar a un programa de un evento, y manejarlo de forma asíncrona.
 Pueden ser generados por el propio sistema o enviados desde un proceso a otro.
+Al igual que con otras formas de programación basada en eventos, se reciben señales estableciendo una función de devolución de llamada, llamada un manejador de señal,
+que se invoca cuando se produce la señal. Los argumentos al manejador de señal son el número de señal y la pila desde el punto en el programa que fue interrumpido por
+la señal.
 
 ## FUNCIONES
+
+### HandleBroadcast
+
+
 ### FUNCION RUN
 Método que representa la actividad del hilo. Se puede redefinir este método en una subclase. El método run() estándar ejecuta el objeto que se pasó al constructor en como argumento target, de haberlo, con argumentos secuenciales y por clave tomados de los argumentos args y kwargs, respectivamente.
 ## PRUEBAS
