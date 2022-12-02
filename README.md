@@ -16,6 +16,7 @@
 8. Erick Leonardo Martínez Hernández
 9. Mauricio Hernández Sánchez
 10. Mario Azael Garcia Rodriguez
+11. Juan Daniel Cebada Colula 
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -52,6 +53,10 @@ Método que representa la actividad del hilo. Se puede redefinir este método en
 
 ### senBroadcaast(NumPy Broadcast())
 Funcion se utiliza para devolver un objeto que imita la transmisión. Describe la capacidad de NumPy para tratar arrays de diferentes formas durante operaciones aritméticas.
+
+### sendDirect
+Se encarga del envio un mensaje a un cliente especifico.El "cliente" llama al objeto para verificar que se encuntre en el indice del receptor, mediante el metodo IF, 
+dando la funcion para devolver un objeto que imita la transmisión 
 
 ## PRUEBAS
 
