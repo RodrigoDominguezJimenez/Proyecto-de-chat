@@ -13,6 +13,7 @@
 5. Aldahir Abisai Leal Cardeña
 6. Isaias Landa Cervantes
 7. Axel Naim Gomez Carreta
+8. Erick Leonardo Martínez Hernández
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -40,6 +41,10 @@ Funcion encargada del manejo de los broadCast, este se encarga de mandar los men
 
 ### FUNCION RUN
 Método que representa la actividad del hilo. Se puede redefinir este método en una subclase. El método run() estándar ejecuta el objeto que se pasó al constructor en como argumento target, de haberlo, con argumentos secuenciales y por clave tomados de los argumentos args y kwargs, respectivamente.
+
+### senBroadcaast(NumPy Broadcast())
+Funcion se utiliza para devolver un objeto que imita la transmisión. Describe la capacidad de NumPy para tratar arrays de diferentes formas durante operaciones aritméticas.
+
 ## PRUEBAS
 
 ## CONCLUSIÓN
