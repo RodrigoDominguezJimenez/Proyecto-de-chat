@@ -17,6 +17,7 @@
 9. Mauricio Hernández Sánchez
 10. Mario Azael Garcia Rodriguez
 11. Juan Daniel Cebada Colula 
+12. Victor Emmanuel López Espejo
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
