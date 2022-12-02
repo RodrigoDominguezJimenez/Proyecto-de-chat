@@ -22,6 +22,7 @@ Con ello lo que buscamos es que el trato sea de manera grupal o directa en el ch
 
 
 ## MÉTODOS
+### QThread
 ### Señales
 #### ¿Que son las señales?
 Las señales son una característica del sistema operativo que proporciona un medio de notificar a un programa de un evento, y manejarlo de forma asíncrona.
@@ -29,6 +30,7 @@ Pueden ser generados por el propio sistema o enviados desde un proceso a otro.
 Al igual que con otras formas de programación basada en eventos, se reciben señales estableciendo una función de devolución de llamada, llamada un manejador de señal,
 que se invoca cuando se produce la señal. Los argumentos al manejador de señal son el número de señal y la pila desde el punto en el programa que fue interrumpido por
 la señal.
+### Sockets
 
 ## FUNCIONES
 
