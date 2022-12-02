@@ -25,7 +25,10 @@ Con ello lo que buscamos es que el trato sea de manera grupal o directa en el ch
 
 
 ## MÉTODOS
+
 ### QThread
+Un objetoQThreadadministra un subproceso de control dentro del programa. QThreads comienza a ejecutarse enrun(). De forma predeterminada, run() inicia el bucle de eventos llamando aexec() y ejecuta un bucle de eventos Qt dentro del subproceso. De igual manera todas las ranuras en cola deQThread ylos métodosinvocadosse ejecutarán en el hilo antiguo. Al subclasificarQThread, tenga en cuenta que el constructor se ejecuta en el subproceso antiguo mientras querun() se ejecuta en el nuevo subproceso.
+
 ### Señales
 #### ¿Que son las señales?
 Las señales son una característica del sistema operativo que proporciona un medio de notificar a un programa de un evento, y manejarlo de forma asíncrona.
@@ -56,3 +59,4 @@ Funcion se utiliza para devolver un objeto que imita la transmisión. Describe l
 ## BIBLIOGRAFÍA
 
 https://rico-schmidt.name/pymotw-3/signal/index.html#:~:text=Las%20se%C3%B1ales%20son%20una%20caracter%C3%ADstica,y%20manejarlo%20de%20forma%20as%C3%ADncrona.
+https://doc.qt.io/qtforpython/PySide6/QtCore/QThread.html#more
