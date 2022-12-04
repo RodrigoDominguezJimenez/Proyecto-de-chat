@@ -19,6 +19,7 @@
 11. Juan Daniel Cebada Colula 
 12. Victor Emmanuel López Espejo
 13. Samuel Ruiz Castillo
+14. Edgar Alejandro Hernandez Maruri
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -70,6 +71,9 @@ Funcion se utiliza para devolver un objeto que imita la transmisión. Describe l
 ### sendDirect
 Se encarga del envio un mensaje a un cliente especifico.El "cliente" llama al objeto para verificar que se encuntre en el indice del receptor, mediante el metodo IF, 
 dando la funcion para devolver un objeto que imita la transmisión 
+
+### sendText
+Se encarga de varificar si la opcion es un 'chat', luego con un json envia un mensaje de tipo broadcast y el mensaje que se escribió, si no, con el json enva el mensaje de tipo privado a un receptor seguido del mensaje.
 
 ## PRUEBAS
 
