@@ -76,7 +76,7 @@ dando la funcion para devolver un objeto que imita la transmisión
 Se encarga de varificar si la opcion es un 'chat', luego con un json envia un mensaje de tipo broadcast y el mensaje que se escribió, si no, con el json enva el mensaje de tipo privado a un receptor seguido del mensaje.
 
 ### cliente.py
-Hace la entrada a la clase CustomDialog y se ejecutan los metodos de dichas clases, despues hace la comparativa si el atributo connect esta en verdadero o en falso; si esta condición es verdadera se toma los atributos de "ip", "port" y "nickname" del objeto "dlg" y se mandan a la función de "connetServer"
+Hace la entrada a la clase CustomDialog y se ejecutan los metodos de dichas clases, despues hace la comparativa si el atributo connect esta en verdadero o en falso; si esta condición es verdadera se toma los atributos de "ip", "port" y "nickname" del objeto "dlg" y se mandan a la función de "connetServer".
 
 ## PRUEBAS
 
