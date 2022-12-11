@@ -20,6 +20,7 @@
 12. Victor Emmanuel López Espejo
 13. Samuel Ruiz Castillo
 14. Edgar Alejandro Hernandez Maruri
+15. Cristian Jair Hernández Durán
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -77,6 +78,9 @@ Se encarga de varificar si la opcion es un 'chat', luego con un json envia un me
 
 ### cliente.py
 Hace la entrada a la clase CustomDialog y se ejecutan los metodos de dichas clases, despues hace la comparativa si el atributo connect esta en verdadero o en falso; si esta condición es verdadera se toma los atributos de "ip", "port" y "nickname" del objeto "dlg" y se mandan a la función de "connetServer".
+
+### clientHandle
+
 
 ## PRUEBAS
 
