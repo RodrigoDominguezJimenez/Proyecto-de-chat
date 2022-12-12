@@ -84,7 +84,8 @@ Hace la entrada a la clase CustomDialog y se ejecutan los metodos de dichas clas
 
 
 ### handleClientList
-Este metodo se encarga de 
+Este metodo se encarga de crear una caja div usando html para informarnos dentro de ella que nos hemos conectado al chat y también nos indica "Tú" cuales mensajes
+han sido enviados por nosotros mismos, usando como argumento json0bj
 
 ## PRUEBAS
 
