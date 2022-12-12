@@ -22,6 +22,7 @@
 14. Edgar Alejandro Hernandez Maruri
 15. Cristian Jair Hernández Durán
 16. Germán de Jesús Suárez Tapia
+17. Jesús Herón Gálvez Vázquez
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -86,6 +87,13 @@ Hace la entrada a la clase CustomDialog y se ejecutan los metodos de dichas clas
 ### handleClientList
 Este metodo se encarga de crear una caja div usando html para informarnos dentro de ella que nos hemos conectado al chat y también nos indica "Tú" en los mensajes que 
 han sido enviados por nosotros mismos, usando como argumento json0bj
+
+### sendHandshake
+Esta función crea un mensaje escribiendo el tipo, que es un hansdhake, y mediante el uso del *json.dump* agrega el nickname del usuario.
+Además, mediante el *socket.send* envía el mensaje encriptándolo con *(msg.encode())*.
+
+### closeEvent
+Verifica que tenga atributos utilizando una conndicional con el método *hasattr()*, y de ser verdadero, retorna un **true**, dándole la instrucción al socket para que se apague, todo esto gracias al comando *socket.shutdown(*socket.**SHUT_DOWN*)*.
 
 ## PRUEBAS
 #### como se ve la interfaz
