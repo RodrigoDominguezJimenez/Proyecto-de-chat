@@ -88,7 +88,20 @@ Este metodo se encarga de crear una caja div usando html para informarnos dentro
 han sido enviados por nosotros mismos, usando como argumento json0bj
 
 ## PRUEBAS
-![prueba 1](https://raw.githubusercontent.com/RodrigoDominguezJimenez/Proyecto-de-chat/c1c6b54d0c4aaedd0939378b164d5acce2670880/pruevbas/Captura%20de%20pantalla%202022-12-11%20232127.png)
+#### como se ve la interfaz
+![prueba 1](https://raw.githubusercontent.com/RodrigoDominguezJimenez/Proyecto-de-chat/c1c6b54d0c4aaedd0939378b164d5acce2670880/pruevbas/Captura%20de%20pantalla%202022-12-11%20232127.png)  
+#### como se ve la configuracion  
+(![image](https://user-images.githubusercontent.com/113264761/206968425-100dbfe3-b88f-467e-a1ae-b855ed40530b.png)  
+#### el servidor   
+( ![image](https://user-images.githubusercontent.com/113264761/206968503-2d56371b-6c65-4f3e-9852-b689b1fb8636.png)  
+#### pruebas con usuarios 
+( ![image](https://user-images.githubusercontent.com/113264761/206968547-1796a721-b149-475b-880d-ac8d52a274fb.png)  
+( ![image](https://user-images.githubusercontent.com/113264761/206968611-da1da371-bbb5-43ef-9ff0-7e7a9d416cf7.png)  
+( ![image](https://user-images.githubusercontent.com/113264761/206968670-6cd79df9-a6c7-4ce5-8ec9-583a5feec424.png)  
+( ![image](https://user-images.githubusercontent.com/113264761/206968713-46f4aa99-ec66-4030-ad88-bb47e65c85df.png)  
+( ![image](https://user-images.githubusercontent.com/113264761/206968780-b9785718-854b-43be-95d6-b3efec8eaa08.png)  
+( ![image](https://user-images.githubusercontent.com/113264761/206968888-42eb6ea8-1ecb-44ca-bac4-c0425a22b0ab.png)  
+
 
 ## CONCLUSIÓN
 
