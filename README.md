@@ -82,7 +82,8 @@ Se encarga de varificar si la opcion es un 'chat', luego con un json envia un me
 Hace la entrada a la clase CustomDialog y se ejecutan los metodos de dichas clases, despues hace la comparativa si el atributo connect esta en verdadero o en falso; si esta condición es verdadera se toma los atributos de "ip", "port" y "nickname" del objeto "dlg" y se mandan a la función de "connetServer".
 
 ### clientHandle
-
+Manejo de clientes, los clientes pueden enviar 3 tipos de mensajes; handshake, broadcast y direct.
+El handshake permite que responda con la lista de clientes, avisa a los otros clientes que el usuario se ha conectado. El broadcast permite enviar mensajes a todos los clientes. El direct permite enviar mensajes directos entre clientes.
 
 ### handleClientList
 Este metodo se encarga de crear una caja div usando html para informarnos dentro de ella que nos hemos conectado al chat y también nos indica "Tú" en los mensajes que 
