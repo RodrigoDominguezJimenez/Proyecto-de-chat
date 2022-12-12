@@ -93,7 +93,7 @@ Esta función crea un mensaje escribiendo el tipo, que es un hansdhake, y median
 Además, mediante el *socket.send* envía el mensaje encriptándolo con *(msg.encode())*.
 
 ### closeEvent
-Verifica que tenga atributos utilizando una conndicional con el método *hasattr()*, y de ser verdadero, retorna un **true**, dándole la instrucción al socket para que se apague, todo esto gracias al comando *socket.shutdown(*socket.**SHUT_DOWN*)*.
+Verifica que tenga atributos utilizando una condicional con el método *hasattr()*, y de ser verdadero, retorna un **true**, dándole la instrucción al socket para que se apague, todo esto gracias al comando *socket.shutdown(*socket.**SHUT_DOWN*)*.
 
 ## PRUEBAS
 #### como se ve la interfaz
