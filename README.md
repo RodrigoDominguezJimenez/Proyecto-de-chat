@@ -21,6 +21,7 @@
 13. Samuel Ruiz Castillo
 14. Edgar Alejandro Hernandez Maruri
 15. Cristian Jair Hernández Durán
+16. Germán de Jesús Suárez Tapia
 
 ## INTRODUCCIÓN
 En la facultad de Estadística e Informática se  ha visto en un conflicto por no contar con un sistema de chat para que los estudiantes se comuniquen entre sí, por lo que se propone este programa que permita interactuar entre los mismos estudiantes, estudiantes maestros, estudiantes y secretarias, para que faciliten y ayuden a los jóvenes sobre las dudas que tengan de manera más rápida. 
@@ -81,6 +82,9 @@ Hace la entrada a la clase CustomDialog y se ejecutan los metodos de dichas clas
 
 ### clientHandle
 
+
+### handleClientList
+Este metodo se encarga de 
 
 ## PRUEBAS
 
