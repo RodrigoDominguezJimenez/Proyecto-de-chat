@@ -88,6 +88,7 @@ Este metodo se encarga de crear una caja div usando html para informarnos dentro
 han sido enviados por nosotros mismos, usando como argumento json0bj
 
 ## PRUEBAS
+![prueba 1](https://raw.githubusercontent.com/RodrigoDominguezJimenez/Proyecto-de-chat/c1c6b54d0c4aaedd0939378b164d5acce2670880/pruevbas/Captura%20de%20pantalla%202022-12-11%20232127.png)
 
 ## CONCLUSIÓN
 
